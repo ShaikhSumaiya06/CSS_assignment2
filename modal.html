@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal model</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 30x;
+        }
+        
+        .modal {
+            width: 700px;
+            background-color: #fff;
+            padding: 10px;
+            position: relative;
+            left: 20%;
+            top: 10px;
+            z-index: 2;
+            border-radius: 5px;
+        }
+        
+        .inp01 {
+            width: 99%;
+            height: 40px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+        }
+        
+        .inp02 {
+            width: 49%;
+            height: 40px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+        }
+        
+        .inp03 {
+            width: 99%;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid black;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            border: 0;
+            background-color: #5a4bda;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="modal">
+        <h2>Want A Free Consultation?</h2>
+        <hr>
+        <div>
+            <input type="text" class="inp01" placeholder="Full Name">
+        </div>
+        <input type="email" placeholder="Email" class="inp02">
+        <input type="number" class="inp02" placeholder="Contact Number">
+        <div>
+            <textarea cols="30" rows="10" class="inp03" placeholder="Message">
+                </textarea>
+        </div>
+        <button>Send Message</button>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-color: #1f1f1f;
+}
+
+
+/* #1f1f1f
+ #242b2e
+  #5da3fa
+  #5a4bda
+*/
+
+nav {
+    width: 150px;
+    min-height: 100vh;
+    background-color: #242b2e;
+    float: left;
+    /* display: block; */
+}
+
+nav>img {
+    width: 100%;
+    background-color: #5da3fa;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    border-bottom: 1px dashed black;
+    padding: 10px 25px;
+}
+
+section {
+    color: aliceblue;
+    padding: 0px 50px 0px 200px;
+}
+
+section>h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #5a4bda;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image img {
+    width: 450px;
+}
+
+.image {
+    text-align: center;
+}
+
+section>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

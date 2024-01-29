@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon card game</title>
+    <style>
+        body {
+            text-align: center;
+            position: relative;
+        }
+        
+        .card {
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 4px;
+            position: absolute;
+        }
+        
+        .card1 {
+            background-color: #0481b3;
+        }
+        
+        .card2 {
+            background-color: #1faa59;
+            margin-left: 40px;
+            margin-top: 80px;
+        }
+        
+        .card3 {
+            background-color: #ffff00;
+            margin-left: 70px;
+            margin-top: 150px;
+        }
+        
+        img {
+            width: 150px;
+            height: 200px;
+            background-color: #1f1f1f;
+        }
+        
+        .card:hover {
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hover To Unveil The Pokemon</h1>
+    <div class="card1 card">
+        <h3>Card 1</h3>
+        <img src="../media/imagesSet/pokemon01.png" alt="pokemon1">
+    </div>
+    <div class="card2 card">
+        <h3>Card 2</h3>
+        <img src="../media/imagesSet/pokemon02.png" alt="pokemon2">
+    </div>
+    <div class="card3 card">
+        <h3>Card 3</h3>
+        <img src="../media/imagesSet/pokemon03.png" alt="pokemon3">
+    </div>
+
+</body>
+
+</html>
